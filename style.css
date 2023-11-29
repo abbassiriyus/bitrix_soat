@@ -1,0 +1,24 @@
+*{
+    top: 0px;
+    left: 0px;
+}
+.navbar_top{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    min-height: 100px;
+    background-color: white;
+    font-size: 2vw;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header_page{
+background: url();
+}
+@media(max-width:600px){
+    .navbar_top{
+        font-size: 23px;
+    }
+}
