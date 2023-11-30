@@ -1,326 +1,591 @@
-*{
-    top: 0px;
-    left: 0px;
+* {
+  top: 0px;
+  left: 0px;
 }
 
 /* navbar */
-.navbar_top{
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
-    margin: auto;
-    align-items: center;
-    min-height: 100px;
-    background-color: white;
-    font-size: 2vw;
-    font-weight: 900;
-    font-family: 'Lato', sans-serif;
+.navbar_top {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  align-items: center;
+  min-height: 100px;
+  background-color: white;
+  font-size: 2vw;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
 }
-
-@media(max-width:600px){
-    .navbar_top{
-        font-size: 23px;
-    }
+a {
+  text-decoration: none;
 }
-
+@media (max-width: 600px) {
+  .navbar_top {
+    font-size: 23px;
+  }
+}
 
 /* mini menu */
-.mini_menu{
-    width: 30%;
-    min-width: 300px;
-    background-color: white;
-    /* padding-left: 3%; */
-    padding-left: 4px;
-    padding-right: 14px;
-    position: fixed;
+.mini_menu {
+  width: 30%;
+  min-width: 300px;
+  background-color: white;
+  /* padding-left: 3%; */
+  padding-left: 4px;
+  padding-right: 14px;
+  position: fixed;
   left: -600px !important;
-    transition: 1s;
-    top: 0px;
-    height: 100vh;
+  transition: 1s;
+  top: 0px;
+  height: 100vh;
 }
-.mini_menu .search{
-    display: flex;
-    justify-content: space-between;
-    padding-right: 20px;
-    gap: 10px;  padding-top: 10px;
+.mini_menu .search {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  gap: 10px;
+  padding-top: 10px;
 }
-.mini_menu .search .bx-search{
-position: relative;
-top: 3px;
+.mini_menu .search .bx-search {
+  position: relative;
+  top: 3px;
 }
-.mini_menu .search .close{
-font-size: 20px;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-position:relative;
-top: -2px;
-cursor: pointer;
-}
-
-.mini_menu .input{
-    display: flex;
-    align-items: center !important;
-    background-color: white;
-    border: 1px solid gray;
-    padding-left: 3px;
-    margin-bottom: 20px; 
-}
-.mini_menu .input input{
-    border: none;
-    height: 100%;
-    outline: none;
-
-}
-.mini_menu ul{
-    list-style: none;
-    font-family: 'Lato', sans-serif;
-font-size: 19px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0em;
-padding: 0;
-margin: 0;
-text-align: left;
-
-}
-.mini_menu .line{
-    width: 100%;
-    background-color: rgba(128, 128, 128, 0.402);
-    height: 2px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    
-}
-.mini_menu h1{
-    font-family: 'Lato', sans-serif;
-font-size: 24px !important;
-font-weight: 400 !important;
-line-height: 30px;
-letter-spacing: 0em;
-text-align: left;
-
+.mini_menu .search .close {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  top: -2px;
+  cursor: pointer;
 }
 
+.mini_menu .input {
+  display: flex;
+  align-items: center !important;
+  background-color: white;
+  border: 1px solid gray;
+  padding-left: 3px;
+  margin-bottom: 20px;
+}
+.mini_menu .input input {
+  border: none;
+  height: 100%;
+  outline: none;
+}
+.mini_menu ul {
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.mini_menu .line {
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.402);
+  height: 2px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.mini_menu h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
 
 /* header */
-.header_page .carousel-item{
-    background: url("./image/2880x1620_annapurna-massif-mountains-4k.jpg");
-    background-size: cover;
-    color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    /* height: 500px; */
+.header_page .carousel-item {
+  background: url("./image/2880x1620_annapurna-massif-mountains-4k.jpg");
+  background-size: cover;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* height: 500px; */
 }
 
-.header_page .body_carousel{
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-align-items: center;
+.header_page .body_carousel {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
 }
-.header_page .body_carousel .text{
-    width: 45%;
-    min-width: 300px;
+.header_page .body_carousel .text {
+  width: 45%;
+  min-width: 300px;
 }
-.header_page .body_carousel .text h1{
-    font-family: 'Lato', sans-serif;
-font-size: 5vw;
-font-weight: 500;
-/* line-height: 127px; */
-letter-spacing: 0em;
-text-align: left;
-
+.header_page .body_carousel .text h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 5vw;
+  font-weight: 500;
+  /* line-height: 127px; */
+  letter-spacing: 0em;
+  text-align: left;
 }
-.header_page .body_carousel .text h4{
-    font-family: 'Lato', sans-serif;
-font-size: 2vw;
-font-weight: 500;
-/* line-height: 127px; */
-letter-spacing: 0em;
-text-align: left;
-
+.header_page .body_carousel .text h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+  /* line-height: 127px; */
+  letter-spacing: 0em;
+  text-align: left;
 }
-.header_page .body_carousel .text h5{
-    font-family: 'Lato', sans-serif;
-    font-size: 2vw;
-    font-weight: 500;
-    /* line-height: 127px; */
-    letter-spacing: 0em;
-    text-align: left;
+.header_page .body_carousel .text h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+  /* line-height: 127px; */
+  letter-spacing: 0em;
+  text-align: left;
 }
-.header_page .body_carousel .image{
-width: 40%;
-min-width: 300px;
+.header_page .body_carousel .image {
+  width: 40%;
+  min-width: 300px;
 }
-.header_page .body_carousel .image img{
-width: 100%;
+.header_page .body_carousel .image img {
+  width: 100%;
 }
-.header_page .body_carousel .text ul{
-    display: inline-block;
-list-style: none;
-padding: 0;
-margin: 0;
-font-size: 1.7vw;
+.header_page .body_carousel .text ul {
+  display: inline-block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.7vw;
 }
-.header_page .body_carousel .text ul li{
-    display: flex;
-    justify-content:start;
+.header_page .body_carousel .text ul li {
+  display: flex;
+  justify-content: start;
 }
-.header_page .body_carousel .text ul p{
-background-color: rgba(255, 255, 255, 0.187);
-backdrop-filter: blur(10px);
-padding: 2px 4px;
-border-radius: 5px;
-margin-bottom: 10px;
-
+.header_page .body_carousel .text ul p {
+  background-color: rgba(255, 255, 255, 0.187);
+  backdrop-filter: blur(10px);
+  padding: 2px 4px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
-@media(max-width:650px){
-    .header_page .body_carousel .text{
-        width: 90%;
-    }
-    .header_page .body_carousel .text h1{
+@media (max-width: 650px) {
+  .header_page .body_carousel .text {
+    width: 90%;
+  }
+  .header_page .body_carousel .text h1 {
     font-size: 10vw;
-    }
-    .header_page .body_carousel .text h4{
-        font-size: 5vw;
-    }
-    .header_page .body_carousel .text h5{
-font-size: 4.5vw;
-    }
-    .header_page .body_carousel .text ul{
-        font-size: 3vw;
-    }
+  }
+  .header_page .body_carousel .text h4 {
+    font-size: 5vw;
+  }
+  .header_page .body_carousel .text h5 {
+    font-size: 4.5vw;
+  }
+  .header_page .body_carousel .text ul {
+    font-size: 3vw;
+  }
 }
 
-
-.category ul{
-    padding: 0;
-    margin: 0;
-list-style: none;
-width: 90%;
-max-width: 1400px;
-margin: auto;
-display: flex;
-justify-content: space-around;
-height: 100px;
-align-items: center;
+.category ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 90%;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  align-items: center;
 }
-@media(max-width:600px){
-    .category ul{
-        display: none;
-    }
+@media (max-width: 600px) {
+  .category ul {
+    display: none;
+  }
 }
-
 
 /* chasi */
-.chasi h1{
-    font-family: 'Lato', sans-serif;
-    font-size: 3vw;
-    font-weight: 300;
-    line-height: 53px;
-    text-align: center;
-    letter-spacing: 0em;
-    /* text-align: left; */
-    
+.chasi h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 3vw;
+  font-weight: 300;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0em;
+  /* text-align: left; */
 }
-.chasi{
-    height: 600px;
+.chasi {
+  height: 600px;
 }
-.chasi  .back{
-    background: url(./image/2880x1620_annapurna-massif-mountains-4k.jpg);
-    height: 250px;
-    background-size: cover;
-    /* background-position: 0px 0px; */
-    /* padding-top: 5vw; */
-    padding: 20px;
+.chasi .back {
+  background: url(./image/2880x1620_annapurna-massif-mountains-4k.jpg);
+  height: 250px;
+  background-size: cover;
+  /* background-position: 0px 0px; */
+  /* padding-top: 5vw; */
+  padding: 20px;
 }
-.chasi .back h2{
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 3vw;
-    font-weight: 300;
-    /* line-height: 53px; */
-    text-align: center;
-    letter-spacing: 0em;
-    padding-bottom: 20px;
-    /* text-align: left; */
+.chasi .back h2 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 3vw;
+  font-weight: 300;
+  /* line-height: 53px; */
+  text-align: center;
+  letter-spacing: 0em;
+  padding-bottom: 20px;
+  /* text-align: left; */
 }
-@media(max-width:700px){
-    .chasi .back h2{font-size: 23px;}  
-    .chasi  .back{
-        max-height: 200px !important;
-    }
+@media (max-width: 700px) {
+  .chasi .back h2 {
+    font-size: 23px;
+  }
+  .chasi .back {
+    max-height: 200px !important;
+  }
 }
-.chasi .back_body{
+.chasi2 {
+  height: auto;
+  margin-top: 110px;
+}
+.chasi2 .back2 {
+  background: url(./image/2880x1620_annapurna-massif-mountains-4k.jpg);
+  height: 250px;
+  background-size: cover;
+  /* background-position: 0px 0px; */
+  /* padding-top: 5vw; */
+  padding: 20px;
+}
+.chasi2 .back2 h2 {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 3vw;
+  font-weight: 300;
+  /* line-height: 53px; */
+  text-align: center;
+  letter-spacing: 0em;
+  padding-bottom: 20px;
+  /* text-align: left; */
+}
+@media (max-width: 700px) {
+  .chasi2 .back2 h2 {
+    font-size: 23px;
+  }
+  .chasi2 .back2 {
+    max-height: 200px !important;
+  }
+}
+.chasi .back_body {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+
+  min-width: 300px;
+  margin: auto;
+}
+.chasi .back .card1 {
+  width: 300px !important;
+  text-align: center;
+  min-width: 100px;
+  min-width: 200px;
+}
+.chasi .back .card1 img {
+  width: 100%;
+}
+.chasi .back .card1 h1 {
+  font-size: 23px;
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  .chasi .back_body {
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
-  
-    
+    overflow: auto;
+
     min-width: 300px;
     margin: auto;
+  }
 }
-.chasi .back .card1{
-width: 300px !important;
-text-align: center;
-min-width: 100px;
-min-width: 200px;
-}
-.chasi .back .card1 img{
-width: 100%;
-
-}
-.chasi .back .card1 h1{
-   font-size: 23px;
-   text-align: center;
-}
-
-@media (max-width:700px) {
- #first{
+@media (max-width: 700px) {
+  #first {
     display: none;
-}   
-.chasi h1{
+  }
+  .chasi h1 {
     font-size: 23px;
-}
-.chasi .back .card1{
+  }
+  .chasi .back .card1 {
     width: auto;
     min-width: 110px;
-}
-.chasi .back .card1 h1{
+  }
+  .chasi .back .card1 h1 {
     font-size: 15px;
-padding: 0px !important;
-margin: 0px !important;
-}
-.chasi .back .card1 p{
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .chasi .back .card1 p {
     font-size: 10px;
-padding: 0px !important;
-margin: 0px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
 }
-}
-
 
 /* all */
-
-
-
-
-.all .cards1{
-display: flex;
-align-items: stretch;
-gap: 10px;
-justify-content: center;
-flex-wrap: wrap;
+.all2 {
+  text-align: center;
 }
-.all .cards1 .card1{
-    width: 10%;
-    min-width: 150px;
+.all2 h1 {
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Euclid Circular B", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
-.all .cards1 .card1 img{
-width: 100%;
+.all .cards1 {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.all .cards1 .card1 img{
+.all .cards1 .card1 {
+  border-radius: 20px;
+  background: #f4f4f4;
+  min-width: 150px;
+  gap: 10px;
+  width: 232px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 16px 0px 16px;
+}
+.all .cards1 .card1_black {
+  display: flex;
+  width: 232px;
+  padding: 88px 20px 87px 21px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #333;
+}
+.all .cards1 .card1_black h1 {
+  color: #fff;
+  font-family: "Euclid Circular B", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.all .cards1 .card1 img {
+  width: 144px;
+}
+.all .cards1 .card1 h3 {
+  color: #000;
+  font-family: "Euclid Circular B", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.all .cards1 .card1 p {
+  color: #000;
+  font-family: "Euclid Circular B", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.all .cards1 .card1 .card1_img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.all2 .cards12 {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.all2 .cards12 .card12 {
+  border-radius: 20px;
+  background: #f4f4f4;
+  min-width: 150px;
+  gap: 10px;
+  width: 232px;
+  padding-left: 12px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+  height: 217px;
+}
+.all2 .cards12 .card1_black2 {
+  display: flex;
+  height: 217px;
+  padding: 68px 20px 67px 21px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #333;
+  width: 232px;
+}
+.all2 .cards12 .card1_black2 h1 {
+  color: #fff;
+  font-family: "Euclid Circular B", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.all2 .cards12 .card12 img {
+  width: 139px;
+}
+.all2 .cards12 .card12 h3 {
+  color: #000;
+  font-family: "Euclid Circular B", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.all2 .cards12 .card12 p {
+  color: #000;
+  font-family: "Euclid Circular B", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.all2 .cards12 .card12 .card1_img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.garmin {
+    padding-top: 101px;
+  width: 100%;
+  display: flex;
+  height: 914px;
+  align-items: center;
+  background-image: url("./image/unsplash_JgOeRuGD_Y4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  flex-direction: column;
+}
+.garmin_text {
+  width: 100%;
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.garmin_text h1 {
+  color: #fff;
+  font-family: "Media Gothic", sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.garmin_text p {
+  color: #fff;
+  text-align: center;
+  font-family: "Media Gothic", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.garmin_text button {
+  display: inline-flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: "Euclid Circular B", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  background: rgba(0, 0, 0, 0.4);
+}
+.garmin_img {
+    height: 31.58vw;
+  width: 100%;
+  padding-top: 100px;
+  display: flex;
+  align-items: self-end;
+  justify-content: center;
+}
+.garmin_img img {
+  width: 72.11vw;
+}
+@media(max-width:800px){
+    .garmin_text h1 {
+        color: #fff;
+        font-family: "Media Gothic", sans-serif;
+        font-size: 12.50vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .garmin_text p {
+        color: #fff;
+        text-align: center;
+        font-family: "Media Gothic", sans-serif;
+        font-size: 5vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .garmin_text button {
+        display: inline-flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+        font-family: "Euclid Circular B", sans-serif;
+        font-size: 4vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 10px;
+        border: 2px solid #fff;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .garmin {
+        padding-top: 101px;
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        height: 114.25vw;
+        align-items: center;
+        background-image: url(./image/unsplash_JgOeRuGD_Y4.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
