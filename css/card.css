@@ -1,0 +1,405 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* navbar */
+.navbar_top {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+  align-items: center;
+  min-height: 100px;
+  background-color: white;
+  font-size: 2vw;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  .navbar_top {
+    font-size: 23px;
+  }
+}
+/* mini menu */
+.mini_menu {
+  width: 30%;
+  min-width: 300px;
+  background-color: white;
+  /* padding-left: 3%; */
+  padding-left: 4px;
+  padding-right: 14px;
+  position: fixed;
+  left: -600px ;
+  transition: 1s;
+  top: 0px;
+  height: 100vh;
+}
+.mini_menu .search {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  gap: 10px;
+  padding-top: 10px;
+}
+.mini_menu .search .bx-search {
+  position: relative;
+  top: 3px;
+}
+.mini_menu .search .close {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: relative;
+  top: -2px;
+  cursor: pointer;
+}
+
+.mini_menu .input {
+  display: flex;
+  align-items: center !important;
+  background-color: white;
+  border: 1px solid gray;
+  padding-left: 3px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 80%;
+}
+.mini_menu .input input {
+  border: none;
+  height: 100%;
+  outline: none;
+}
+.mini_menu ul {
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+.mini_menu .line {
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.402);
+  height: 2px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.mini_menu h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px !important;
+  font-weight: 400 !important;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.cardHead{
+    width: 100%;
+    background-color: #111111;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.cardhead1{
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+}
+
+.cardhead11{
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
+}
+.cardhead1 img{
+    width: 34vw;
+    min-width: 300px;
+}
+.cardhead1111{
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
+}
+.cardhead2{
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cardhead22{
+    width: 30%;
+    min-width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(236, 233, 233);
+}
+.cardhead22 p{
+    width: 80%;
+}
+.cardhead22 img{
+    width: 20vw;
+    min-width: 300px;
+}
+.cardhead3{
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.cardhead33{
+    width: 47%;
+    min-width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(226, 224, 224);
+    margin-top: 5%;
+}
+.cardhead33 img{
+    width: 33vw;
+    min-width: 300px;
+    border-radius: 15px;
+}
+.cardhead33 p{
+    width: 80%;
+}
+.watches{
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.watch6{
+    width: 30%;
+    min-width: 300px;
+    /* text-align: center; */
+    align-items: center;
+}
+.watch6 p{
+    width: 60%;
+    min-width: 300px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.watch6 h2{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: 500;
+     color: rgba(0, 0, 0, 0.897);
+}
+.watch6 img{
+    min-width: 300px;
+}
+.blog2{
+    width: 79%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blog3{
+    width: 23%;
+    min-width: 300px;
+   background-color: #F4F4F4;
+    border-radius: 20px;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+}
+.blog22{
+    width: 48%;
+    min-width: 300px;
+   background-color: #F4F4F4;
+    border-radius: 20px;
+    padding-bottom: 12px;
+    margin-bottom: 10px;
+}
+.blog22 img{
+    width: 38vw;
+    min-width: 300px;
+    border-radius: 20px;
+}
+.blog22 p{
+    width: 90%;
+    min-width: 300px;
+    padding-left: 10px;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.blog3 p{
+    width: 50%;
+    min-width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.blog3 img{
+    width: 18vw;
+       min-width: 300px;
+    border-radius: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.btn button{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    
+}
+.blog1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+}
+.rasshirt2{
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+ 
+    align-items: center;
+    gap: 10px;
+    overflow-x: scroll;
+}
+.rasshirt222{
+    width: 30%;
+    min-width: 300px;
+    background-color: #F4F4F4;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rasshirt1{
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding-left: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rasshirt3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.rasshirt3 button{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+}
+.rasshirt23{
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+ 
+    align-items: center;
+    gap: 10px;
+    overflow-x: scroll;
+}
+.rasshirt2222{
+    width: 30%;
+    min-width: 300px;
+    background-color: #F4F4F4;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rasshirt2222 p{
+    width: 70%;
+    margin: auto;
+}
+
+/* contact */
+.contact{
+    background: #F4F4F4;
+padding-bottom: 20px;
+}
+.contact .comtacts{
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.contact h1{
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+font-size: 42px;
+font-weight: 300;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+text-align: center;
+padding-top: 30px;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+.contact .one_contact{
+    display: flex;
+    align-items: center;
+    width: 23%;
+    /* font-size: 12px; */
+    min-width: 200px;
+    gap: 10px;
+    background: white;
+    margin-bottom: 5px;
+border-radius: 20px;
+padding: 13px 12px;
+}
+.contact .one_contact h2{
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
+.contact .one_contact img{
+    height: 30px;
+}
+@media(max-width:500px){
+    .contact .one_contact{
+        width: 90%;
+    } 
+}
