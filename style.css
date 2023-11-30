@@ -34,7 +34,7 @@ a {
   padding-left: 4px;
   padding-right: 14px;
   position: fixed;
-  left: -600px !important;
+  left: -600px ;
   transition: 1s;
   top: 0px;
   height: 100vh;
@@ -65,6 +65,7 @@ a {
   background-color: white;
   border: 1px solid gray;
   padding-left: 3px;
+  height: 40px;
   margin-bottom: 20px;
 }
 .mini_menu .input input {
@@ -246,14 +247,18 @@ a {
     max-height: 200px !important;
   }
 }
+
 .chasi2 {
   height: auto;
-  margin-top: 110px;
+  margin-top: 20px;
 }
 .chasi2 .back2 {
   background: url(./image/2880x1620_annapurna-massif-mountains-4k.jpg);
-  height: 250px;
+  min-height: 250px;
+  padding-top: 10%;
+  height: 30vw;
   background-size: cover;
+  background-position: center;
   /* background-position: 0px 0px; */
   /* padding-top: 5vw; */
   padding: 20px;
@@ -588,4 +593,313 @@ a {
         justify-content: center;
         flex-direction: column;
     }
+}
+
+
+
+
+/* FENIX */
+.all{
+    margin-top: 20px;
+    /* background-color: #333; */
+    color: black;
+    padding-bottom: 40px;
+}
+
+.all .cards_marq{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;align-items: stretch;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.all .card2{
+    width: 19%;
+    /* background: black; */
+    background: #F4F4F4;
+    text-align: center;
+    border-radius: 23px;
+
+}
+    .all .card_2{
+        width: 19%;
+        background: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    font-size: 20px;
+    border-radius: 23px;
+color: white;
+    }
+    .all .card2 h1{
+        font-size: 20px;
+    }
+    .all .card2 img{
+        width: 60%;
+    }
+    @media(max-width:1330px){
+        .all .card_2 h1{
+            font-size: 17px ;
+
+        }
+        .chasi{
+            height: 450px;
+        }
+    }
+    @media(max-width:1100px){
+       .all .card2{
+        width: 45%;
+        margin-bottom: 20px;
+       } 
+       .all .card_2{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 40px;
+        font-size: 23px;
+       }
+       .all .card_2 h1{
+        position: relative;
+        top: 5px;
+       }
+    }
+    @media(max-width:700px){
+        .all .chasi{
+            height: 380px !important;
+            
+        }
+    }
+    @media(max-width:500px){
+        .all .card2 h1{
+font-size: 15px;
+        }
+        .all .card2 p{
+            font-size: 10px;
+                    }
+        .all .cards_marq{
+                        width: 95%;
+                        margin-top: 0px;
+            }
+    }
+
+
+
+
+/* marq */
+.marq{
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding-bottom: 40px;
+}
+.marq .cards_marq{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;align-items: stretch;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.marq .card2{
+    width: 19%;
+    background: black;
+    text-align: center;
+    border-radius: 23px;
+
+}
+    .marq .card_2{
+        width: 19%;
+        background: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    font-size: 20px;
+    border-radius: 23px;
+
+    }
+    .marq .card2 h1{
+        font-size: 20px;
+    }
+    .marq .card2 img{
+        width: 80%;
+    }
+    @media(max-width:1330px){
+        .marq .card_2 h1{
+            font-size: 17px ;
+        }
+        .chasi{
+            height: 450px;
+        }
+    }
+    @media(max-width:1100px){
+       .marq .card2{
+        width: 45%;
+        margin-bottom: 20px;
+       } 
+       .marq .card_2{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 40px;
+        font-size: 23px;
+       }
+       .marq .card_2 h1{
+        position: relative;
+        top: 5px;
+       }
+    }
+    @media(max-width:700px){
+        .marq .chasi{
+            height: 380px !important;
+            
+        }
+    }
+    @media(max-width:500px){
+        .marq .card2 h1{
+font-size: 15px;
+        }
+        .marq .card2 p{
+            font-size: 10px;
+                    }
+        .marq .cards_marq{
+                        width: 95%;
+                        margin-top: 0px;
+            }
+    }
+
+
+
+    /* blog */
+    .blog{
+        background: #F4F4F4;
+padding-bottom: 20px;
+    }
+    .blog h1{
+        text-align: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+font-size: 42px;
+font-weight: 300;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+text-align: center;
+padding-top: 30px;
+margin-bottom: 30px;
+margin-top: 20px;
+    }
+    .blog .cards_blog{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        max-width: 1500px;
+        margin: auto;
+    }
+    .blog .card_blog{
+        width: 31%;
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        min-width: 150px;
+        padding-bottom: 20px;
+    }
+    .blog .card_blog h2{
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+        width: 90%;
+        margin: auto;
+font-size: 20px;
+font-weight: 700;
+margin-top: 10px;
+letter-spacing: 0em;
+text-align: left;
+
+    }
+    .blog button{
+padding: 12px, 24px, 12px, 24px;
+border-radius: 10px;
+background-color: #000;
+color: white;
+border: none;
+min-width: 300px;
+height: 40px;
+font-size: 20px;
+    }
+    .blog .card_blog img{
+        width: 100%;
+        background-color: white;
+       border-top-right-radius: 20px;
+       border-top-left-radius: 20px;
+    }
+    @media(max-width:1000px){
+        .blog .card_blog{width: 49%;
+        margin-bottom: 10px;}
+    }
+    @media(max-width:600px){
+        .blog .card_blog h2{font-size: 10px;}
+        .blog .cards_blog{
+            width: 100%;
+        }
+    }
+
+
+
+/* contact */
+.contact{
+    background: #F4F4F4;
+padding-bottom: 20px;
+}
+.contact .comtacts{
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.contact h1{
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+font-size: 42px;
+font-weight: 300;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+text-align: center;
+padding-top: 30px;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+.contact .one_contact{
+    display: flex;
+    align-items: center;
+    width: 23%;
+    /* font-size: 12px; */
+    min-width: 200px;
+    gap: 10px;
+    background: white;
+    margin-bottom: 5px;
+border-radius: 20px;
+padding: 13px 12px;
+}
+.contact .one_contact h2{
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
+.contact .one_contact img{
+    height: 30px;
+}
+@media(max-width:500px){
+    .contact .one_contact{
+        width: 90%;
+    } 
 }
