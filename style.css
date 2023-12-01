@@ -196,6 +196,7 @@ a {
   width: 90%;
   max-width: 1400px;
   margin: auto;
+  font-size: 2vw;
   display: flex;
   justify-content: space-around;
   height: 100px;
