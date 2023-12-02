@@ -266,8 +266,8 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .blog3 p{
-    width: 50%;
-    min-width: 300px;
+    width: 90%;
+    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 10px;
     font-size: 18px;
@@ -301,6 +301,42 @@ a {
     margin-bottom: 2%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 23px;
+}
+.buttons1 button{
+  width: 280px;
+  height: 50px;
+  border: none;
+  border-radius: 6px;
+  background-color: #000;
+  color: #FFF;
+  margin-bottom: 10px;
+  font-size: 23px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text_product p{
+  width: 70%;
+  min-width: 300px;
+  line-height: 30px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.text_product h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 23px;
+  padding-bottom: 20px;
+}
+.text_product h4{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 10px;
+}
+.text_product span{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img{
+  width: 30%;
+  min-width: 300px;
+  padding-bottom: 20px;
+  
 }
 .rasshirt2{
     width: 77%;
@@ -428,6 +464,7 @@ padding: 13px 12px;
 .one_product{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 flex-wrap: wrap;
 }
 .carousel_product{

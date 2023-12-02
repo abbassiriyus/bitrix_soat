@@ -100,7 +100,6 @@ a {
   letter-spacing: 0em;
   text-align: left;
 }
-
 .obzor ul{
     width: 30%;
     min-width: 300px;
@@ -115,140 +114,12 @@ a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex-wrap: wrap;
     cursor: pointer;
-    border-bottom: 2px solid rgb(177, 171, 171);
-    border-top: 2px solid rgb(177, 171, 171);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    
     
 }
 .obzor ul li:hover{
     font-weight: 600;
 }
-.morning{
-    width: 80%;
-    min-width: 300px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    margin-top: 5%;
-}
-.morning1{
-    width: 30%;
-    min-width: 300px;
-    text-align: center;
-    margin-bottom: 5%;
-    
-    line-height: 25px;
-}
-.morning1 p{
-    width: 75%;
-    min-width: 300px;
-    margin: auto;
-    font-size: 18px;
-    padding-top: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.morning1 h2{
-    width: 80%;
-    min-width: 300px;
-    margin: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(26, 24, 24);
-}
-/* contact */
-.contact{
-    background: #F4F4F4;
-padding-bottom: 20px;
-}
-.contact .comtacts{
-    display: flex;
-    align-items: center;
-    max-width: 1500px;
-    width: 90%;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: auto;
-}
-.contact h1{
-    text-align: center;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-font-size: 42px;
-font-weight: 300;
-line-height: 53px;
-letter-spacing: 0em;
-text-align: left;
-text-align: center;
-padding-top: 30px;
-margin-bottom: 30px;
-margin-top: 20px;
-}
-.contact .one_contact{
-    display: flex;
-    align-items: center;
-    width: 23%;
-    /* font-size: 12px; */
-    min-width: 200px;
-    gap: 10px;
-    background: white;
-    margin-bottom: 5px;
-border-radius: 20px;
-padding: 13px 12px;
-}
-.contact .one_contact h2{
-    font-size: 15px;
-    position: relative;
-    top: 3px;
-}
-.contact .one_contact img{
-    height: 30px;
-}
-@media(max-width:500px){
-    .contact .one_contact{
-        width: 90%;
-    } 
-}
-
-.garmin{
-    background-color: #222222;
-}
-.garmin1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-}
-.garmin1 img{
-    width: 20%;
-    min-width: 300px;
-}
-.garmin2 ul{
-    width: 40%;
-    min-width: 300px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    font-size: 30px;
-    color: rgb(233, 232, 232);
-    margin-top: 3%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    flex-wrap: wrap;
-}
-.garmin3 p{
-    max-width: 150px;
-    margin: auto;
-    margin-top: 2%;
-    color: #F4F4F4;
-    list-style: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-
 
 .buttons1 button{
   width: 280px;
@@ -287,12 +158,15 @@ padding: 13px 12px;
   
 }
 
-
 .one_product{
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
 flex-wrap: wrap;
+border-bottom: 2px solid rgb(172, 167, 167);
+padding-bottom: 30px;
 }
 .carousel_product{
     width: 40%;
@@ -431,4 +305,240 @@ height: 100px;
     width: 90%;
     min-width: 300px;
 }
+}
+.screen{
+    width: 100%;
+    min-width: 300px;
+    margin: auto;
+}
+.screen img{
+    width: 100%;
+    min-width: 300px;
+}
+.stanovites1{
+    width: 100%;
+    min-width: 300px;
+    margin: auto;
+}
+.stanovites{
+    width: 50%;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 3%;
+}
+.stanovites h1{
+    width: 70%;
+    min-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.stanovites p{
+    width: 70%;
+    min-width: 300px;
+    margin: auto;
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.stanovites2{
+    width: 100%;
+    min-width: 300px;
+    margin: auto;
+}
+.stanovites2 img{
+    width: 100%;
+    min-width: 300px;
+    margin: auto;
+}
+.stanovites3{
+    width: 90%;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.stan{
+    width: 30%;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.stan h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.stan p{
+    width: 70%;
+    min-width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+.img_1{
+    width: 100%;
+    min-width: 300px;
+    margin: auto;
+}
+.img_1 img{
+    width: 100%;
+    min-width: 300px;
+}
+.frame{
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.frame1{
+    width: 30%;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 3%;
+    
+}
+.frame1 h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.frame1 p{
+    width: 60%;
+    min-width: 300px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.uznayte{
+    width: 100%;
+    min-width: 300px;
+    margin: auto;
+}
+.uznayte img{
+    width: 100%;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 3%;
+}
+.frame2{
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.frame12{
+    width: 30%;
+    min-width: 300px;
+    margin: auto;
+    margin-top: 3%;
+    
+}
+.frame12 h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.frame12 p{
+    width: 60%;
+    min-width: 300px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.unsplash{
+    width: 100%;
+    min-width: 300px;
+    background: url("../image/unsplash_5RRseu8n_5s.png");
+    background-size: cover;
+    height: auto;
+    padding-bottom: 150px;
+    margin-top: 3%;
+}
+.unsplash h1{
+    width: 80%;
+    min-width: 300px;
+    margin: auto;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 38px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.unsplash button{
+    width: 25%;
+    min-width: 300px;
+    height: 50px;
+    border: 3px solid ;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    
+}
+/* contact */
+.contact{
+    background: #F4F4F4;
+padding-bottom: 20px;
+}
+.contact .comtacts{
+    display: flex;
+    align-items: center;
+    max-width: 1500px;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.contact h1{
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+font-size: 42px;
+font-weight: 300;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+text-align: center;
+padding-top: 30px;
+margin-bottom: 30px;
+margin-top: 20px;
+}
+.contact .one_contact{
+    display: flex;
+    align-items: center;
+    width: 23%;
+    /* font-size: 12px; */
+    min-width: 200px;
+    gap: 10px;
+    background: white;
+    margin-bottom: 5px;
+border-radius: 20px;
+padding: 13px 12px;
+}
+.contact .one_contact h2{
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
+.contact .one_contact img{
+    height: 30px;
+}
+@media(max-width:500px){
+    .contact .one_contact{
+        width: 90%;
+    } 
 }

@@ -7,6 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/features.css">
      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
 </head>
 <body>
         <nav class="navbar_top">
@@ -47,7 +50,101 @@
     </div>
 
 
+<div class="one_product">
+<div class="carousel_product">
+   <div thumbsSlider=""   class="swiper mySwiper pastdagi_swip">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../image/adventurer 1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../image/adneturerblya 1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../image/99c59d06971977f64aee08770f0f4ddc 1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../image/Frame 171.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+          </div>
+        </div>
+      </div>
+    <div style="" class="swiper mySwiper2 tepdagi_swip">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../image/adventurer 1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../image/adneturerblya 1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../image/99c59d06971977f64aee08770f0f4ddc 1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../image/Frame 171.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+          </div>
+        </div>
+        
+      </div>
+      
 
+
+</div>
+<div class="text_product">
+    <h2>Forerunner  965</h2>
+    <p>Carbon Gray DLC (покрытие алмазно-подобным углеродом) с титановой рамкой, чёрным корпусом и черно-серым силиконовым ремешком.</p>
+    <h3>63 990 рублей</h3>
+    <h4>Модель</h4>
+    <div class="img">
+      <img src="../image/Frame 105.png" alt="img">
+       <img src="../image/Frame 105.png" alt="img">
+        <img src="../image/Frame 105.png" alt="img">
+    </div>
+    <div class="card_img">
+<div class="img_s"></div>
+    </div>
+<div class="buttons1">
+<button><i class='bx bxs-cart-alt'></i>  Добавить в корзину</button>
+<button><i class='bx bx-wallet' ></i>  Купить в рассрочку</button></div>
+<span>При оплате в рассрочку от 5 156 рублей в месяц</span>
+
+</div>
+</div>
 
        <div class="obzor">
         <ul>
@@ -255,6 +352,34 @@ Body Battery </h2>
     </div>
 </div>
 
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+    //   spaceBetween: 10,
+      slidesPerView: 4,
+      spaceBetween: 10,
+      mousewheel: true,
+      freeMode: true,
+      breakpoints:{
+        700:{
+          direction: "vertical", 
+        }, 
+         120:{ 
+           direction: "horizontal",
+           slidesPerView: 4,
+          }
+      }
+    //   watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      spaceBetween: 10,
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+  </script>
 </body>
 </html>
