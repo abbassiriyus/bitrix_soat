@@ -1,0 +1,96 @@
+/* .img_sel{
+    text-align: center;
+    width: 120px;
+    background-color: red;
+} */
+.bid_div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cared{
+    width: 40%;
+    min-width: 300px;
+}
+.card1{
+    width: 100%;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #F4F4F4;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 20px;
+min-width: 300px;
+margin-top: 10px;
+align-items: center;
+padding-right:10px ;
+}
+.card1 h1{
+    font-size: 23px;
+    font-weight: 900;
+
+}
+.card1 .text12{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+   
+}
+.card1 .img_sel{
+width: 20%;
+text-align: center;
+min-width: 120px;
+}
+.karzinka{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 500;
+line-height: 76px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+text-align: center;
+}
+.sena{
+    width: 30%;
+    /* background-color: red; */
+    text-align: center;
+    min-width: 200px;
+}
+.sena button{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    height: 50px;
+    font-size: 23px;
+    border-radius: 5px;
+}
+.card1 select{
+    background-color: #000000;
+    color: #F4F4F4;
+    border: none;
+    padding: 2px 3px;
+}
+@media(max-width:991px){
+    .cared{
+        width: 90%;
+        min-width: 300px;
+    }
+    .sena{
+        width: 80%;
+        margin-top: 30px;
+    }
+}
+@media(max-width:600px){
+.card1 h1{
+    font-size: 15px;
+}
+.card1 img{
+    width: 50px;
+}
+.text12 h3{
+    font-size: 12px;
+}
+}
