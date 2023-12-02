@@ -54,8 +54,41 @@
 
 <div class="one_product">
 <div class="carousel_product">
-   
-    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff;" class="swiper mySwiper2">
+   <div thumbsSlider=""   class="swiper mySwiper pastdagi_swip">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="../image/adventurer 1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../image/adneturerblya 1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../image/99c59d06971977f64aee08770f0f4ddc 1.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../image/Frame 171.png" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+          </div>
+        </div>
+      </div>
+    <div style="" class="swiper mySwiper2 tepdagi_swip">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <img src="../image/adventurer 1.png" />
@@ -90,40 +123,7 @@
         </div>
         
       </div>
-      <div thumbsSlider="" style="height: 300px;width: 200px;" class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="../image/adventurer 1.png" />
-          </div>
-          <div class="swiper-slide">
-            <img src="../image/adneturerblya 1.png" />
-          </div>
-          <div class="swiper-slide">
-            <img src="../image/99c59d06971977f64aee08770f0f4ddc 1.png" />
-          </div>
-          <div class="swiper-slide">
-            <img src="../image/Frame 171.png" />
-          </div>
-          <div class="swiper-slide">
-            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-          </div>
-          <div class="swiper-slide">
-            <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
-          </div>
-        </div>
-      </div>
+      
 
 
 </div>
@@ -374,11 +374,19 @@ Always-On!</p>
   <script>
     var swiper = new Swiper(".mySwiper", {
     //   spaceBetween: 10,
-      slidesPerView: 3,
-      direction: "vertical",
+      slidesPerView: 4,
       spaceBetween: 10,
       mousewheel: true,
       freeMode: true,
+      breakpoints:{
+        700:{
+          direction: "vertical", 
+        }, 
+         120:{ 
+           direction: "horizontal",
+           slidesPerView: 4,
+          }
+      }
     //   watchSlidesProgress: true,
     });
     var swiper2 = new Swiper(".mySwiper2", {
