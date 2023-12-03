@@ -2,145 +2,62 @@
     padding: 0px;
     margin: 0px;
 }
-/* navbar */
-.navbar_top {
-  display: flex;
-  justify-content: space-between;
-  width: 95%;
-  margin: auto;
-  align-items: center;
-  min-height: 100px;
-  background-color: white;
-  font-size: 2vw;
-  font-weight: 900;
-  font-family: "Lato", sans-serif;
+.input{
+  display: flex;justify-content: space-around;
 }
-a {
-  text-decoration: none;
-}
-@media (max-width: 600px) {
-  .navbar_top {
-    font-size: 23px;
-  }
-}
-/* mini menu */
-.mini_menu {
-  width: 30%;
-  min-width: 300px;
-  background-color: white;
-  /* padding-left: 3%; */
-  padding-left: 4px;
-  padding-right: 14px;
-  position: fixed;
-  left: -600px ;
-  transition: 1s;
-  top: 0px;
-  height: 100vh;
-}
-.mini_menu .search {
-  display: flex;
-  justify-content: space-between;
-  padding-right: 20px;
-  gap: 10px;
-  padding-top: 10px;
-}
-.mini_menu .search .bx-search {
-  position: relative;
-  top: 3px;
-}
-.mini_menu .search .close {
-  font-size: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  position: relative;
-  top: -2px;
-  cursor: pointer;
+.input input{
+width: 47%;
+padding: 11px 10px;
+border: none;
+background-color: rgba(128, 128, 128, 0.329);
+border-radius: 4px;
+outline: none;
 }
 
-.mini_menu .input {
+
+
+.cards123{
   display: flex;
-  align-items: center !important;
-  background-color: white;
-  border: 1px solid gray;
-  padding-left: 3px;
-  height: 40px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  width: 80%;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.mini_menu .input input {
-  border: none;
-  height: 100%;
-  outline: none;
+.card123{
+  width: 48%;
+  display: flex;justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.288);
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 5px;
 }
-.mini_menu ul {
-  list-style: none;
-  font-family: "Lato", sans-serif;
-  font-size: 19px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
-  padding: 0;
-  margin: 0;
-  text-align: left;
-}
-.mini_menu .line {
-  width: 100%;
-  background-color: rgba(128, 128, 128, 0.402);
-  height: 2px;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-.mini_menu h1 {
-  font-family: "Lato", sans-serif;
-  font-size: 24px !important;
-  font-weight: 400 !important;
-  line-height: 30px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-.order{
-    width: 80%;
-    min-width: 300px;
-    margin: auto;
-    
-}
-.order1{
-    width: 50%;
-    min-width: 300px;
-   
-}
-.order1 h1{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
-}
-.inp{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-     
-}
-.inp input{
-    width: 30%;
-    min-width: 300px;
-    min-height: 50px;
-    border-radius: 10px;
-    border: none;
-    background-color: #F4F4F4;
-    padding-left: 15px;
-    font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.oredr2{
-    width: 50%;
-    height: 40%;
+
+.buttonw{
 display: flex;
-background-color: rebeccapurple;
+justify-content: space-around;
+
 }
-.order3{
- 
+.butw{
+  background-color: rgba(128, 128, 128, 0.562);
+  padding: 4px 10px;
+  border-radius: 10px;
+  width: 23%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card123 input{
+  width: 30px;
+  height: 30px;
+  background-color: gray;
+  color: gray;
+  border-radius: 10px;
+  content: "";
+  display: inline-block;
+  vertical-align: -25%;
+  height: 2ex;
+  width: 2ex;
+  background-color: white;
+  border: 1px solid rgb(166, 166, 166);
+  border-radius: 4px;
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.25);
+  margin-right: 0.5em;
 }
